@@ -92,7 +92,7 @@ h1 {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  padding-bottom: 150px; }
+  padding-bottom: 100px; }
   .beer img {
     width: 200px;
     height: auto;
@@ -103,5 +103,16 @@ h1 {
   .beer #beer2 {
     position: relative;
     left: -40px; }
+
+.mem {
+  padding-bottom: 150px; }
+  .mem h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px; }
+  .mem img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -117,7 +117,7 @@ h1{
     display: flex;
     justify-content: center;
     overflow: hidden;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     img {
         width: 200px;
         height: auto;
@@ -133,3 +133,16 @@ h1{
     }
 }
 
+.mem{
+    padding-bottom: 150px;
+    h2{
+        color: #fff;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 40px;
+    }
+}
