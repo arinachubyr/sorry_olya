@@ -119,3 +119,21 @@ function shakeBeer() {
 }
 
 setInterval(shakeBeer, 3000);
+
+$(document).ready(function () {
+  $(".picture-slider .owl-carousel").owlCarousel({
+    nav: false,
+    navText: ["", ""],
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    smartSpeed: 1000,
+    responsive: {
+      0: {
+        items: 1,
+        margin: 20,
+      },
+    },
+  });
+});
