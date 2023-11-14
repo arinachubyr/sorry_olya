@@ -14,7 +14,11 @@
   </head>
   <body>
     <div class="container">
-      <section class="header">
+      <section
+        class="header wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay="0.2s"
+      >
         <h1 class="heading">
           Оля, <br />
           пробач
@@ -40,8 +44,6 @@
         <div class="picture__content">
           <img src="img/photo/ph-3.jpg" alt="photo" />
         </div>
-        <!-- <div class="owl-carousel owl-theme owl-loaded">
-        </div> -->
       </section>
       <div id="container">
         <span id="text1"></span>
@@ -71,10 +73,38 @@
         />
       </section>
       <section class="mem">
-        <h2>бо зараз так</h2>
-        <img src="img/photo/ph-4.jpeg" alt="photo" />
-        <h2>а треба отак</h2>
-        <img src="img/photo/ph-4.jpg" alt="photo" />
+        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+          бо зараз так
+        </h2>
+        <img
+          class="wow fadeInLeft"
+          data-wow-duration="1s"
+          data-wow-delay="0.4s"
+          src="img/photo/ph-4.jpeg"
+          alt="photo"
+        />
+        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+          а треба отак
+        </h2>
+        <img
+          class="wow fadeInLeft"
+          data-wow-duration="1s"
+          data-wow-delay="0.4s"
+          src="img/photo/ph-4.jpg"
+          alt="photo"
+        />
+      </section>
+      <section class="dog">
+        <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+          дякую за увагу...
+        </h2>
+        <img
+          class="wow fadeInUpBig"
+          data-wow-duration="1s"
+          data-wow-delay="0.4s"
+          src="img/photo/dog.png"
+          alt="patron"
+        />
       </section>
     </div>
     <script
@@ -85,6 +115,8 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <script src="js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css" />
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js" defer></script>
   </body>
 </html>

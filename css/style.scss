@@ -108,7 +108,6 @@ h1{
     img{
         width: 100%;
         object-fit: cover;
-        height: 270px;
         object-position: top;
     }
 }
@@ -134,11 +133,25 @@ h1{
 }
 
 .mem{
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     h2{
         color: #fff;
-        font-size: 36px;
+        font-size: 30px;
         margin-bottom: 20px;
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 40px;
+    }
+}
+
+.dog{
+    padding-bottom: 100px;
+    h2{
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 40px;
     }
     img{
         width: 100%;

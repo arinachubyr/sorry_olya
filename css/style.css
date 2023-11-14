@@ -84,7 +84,6 @@ h1 {
   .picture img {
     width: 100%;
     object-fit: cover;
-    height: 270px;
     object-position: top; }
 
 .beer {
@@ -105,12 +104,23 @@ h1 {
     left: -40px; }
 
 .mem {
-  padding-bottom: 150px; }
+  padding-bottom: 100px; }
   .mem h2 {
     color: #fff;
-    font-size: 36px;
+    font-size: 30px;
     margin-bottom: 20px; }
   .mem img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 40px; }
+
+.dog {
+  padding-bottom: 100px; }
+  .dog h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 40px; }
+  .dog img {
     width: 100%;
     object-fit: cover;
     margin-bottom: 40px; }

@@ -137,3 +137,11 @@ $(document).ready(function () {
     },
   });
 });
+
+wow = new WOW({
+  boxClass: "wow",
+  animateClass: "animated",
+  offset: 0,
+  live: true,
+});
+wow.init();
